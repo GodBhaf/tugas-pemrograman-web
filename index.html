@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Selamat Datang di BukuKita!</h2>
+    <h4>Toko Buku Online Terlengkap</h4>
+
+    <p>
+        <a href="">[ Beranda ]</a>
+        <a href="">[ Katalog ]</a>
+        <a href="">[ Promo ]</a>
+        <a href="">[ Tentang Kami ]</a>
+        <a href="">[ Kontak ]</a>
+    </p>
+
+    <h3>Tentang Kami</h3>
+    <p>BukuKita adalah toko buku online yang didirikan sejak tahun 2020 dengan misi untuk menyebarkan literasi ke
+        seluruh penjuru Indonesia. Kami percaya bahwa buku adalah jendela dunia, dan kami berkomitmen untuk menyediakan
+        akses mudah dan terjangkau ke berbagai jenis buku berkualitas bagi semua kalangan.</p>
+    <p>Visi kami adalah menjadi platform toko buku online terdepan di Indonesia yang inovatif dan terpercaya.</p>
+
+    <hr>
+    <h2>Hubungi Kami</h2>
+    <form action="" method="POST">
+        <p>
+        <label for="email">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" required> 
+        </p>
+
+        <p>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required> 
+        </p>
+
+        <p>
+        <label for="email">Nomor Telepon:</label><br>
+        <input type="tel" id="telepon" name="telepon" required> 
+        </p>
+
+        <p>
+            <label for="topik">Topik Pesan</label><br>
+            <select id="topik" name="topik">
+                <option value="umum">Pertanyaan Umum</option>
+                <option value="order">Masalah Pemesanan</option>
+                <option value="kerjasama">Kerjasama</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="pesan">Pesan Anda:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <label>Bagaimana Anda Mengtahui kami? (Pilih satu)</label><br>
+            <input type="radio" id="media-sosial" name="sumber" value="media-sosial">
+            <label for="media-sosial">Media Sosial</label><br>
+
+            <input type="radio" id="mesin-pencari" name="sumber" value="mesin-pencari">
+            <label for="mesin-pencari">Mesin Pencari</label><br>
+
+            <input type="radio" id="rekomendasi" name="sumber" value="rekomendasi">
+            <label for="rekomendasi">Rekomendasi</label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="setuju" name="setuju" required>
+            <label for="setuju">Setuju Syarat & Ketentuan</label>
+        </p>
+
+        <p>
+            <button type="submit">Kirim Pesan</button>
+        </p>
+    </form>
+</body>
+
+</html>
